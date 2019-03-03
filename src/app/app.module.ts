@@ -13,6 +13,8 @@ import { DragDropComponent } from './drag-drop/drag-drop.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ServicesComponent } from './content/services/services.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
+import { ContactUsComponent } from './content/contact-us/contact-us.component';
+import { AboutUsComponent } from './content/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
     SharedTableComponent,
     DragDropComponent,
     ServicesComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ContactUsComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
